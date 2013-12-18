@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title Code of Conduct - Las Vegas Ruby Group
+    link rel="stylesheet" media="screen, projection" href="/styles.css"
+  body
+    .content
+      img id="logo" src="/images/logo.png"
+      == yield
+
+      .footer
+        p Las Vegas Ruby Group
+
+    /[if lt IE 9]
+      script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
